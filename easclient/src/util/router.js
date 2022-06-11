@@ -1,0 +1,23 @@
+const router={
+    student:{
+        course:'ROUTER_STUDENT_COURSE',
+        grade:'ROUTER_STUDENT_GRADE',
+        selectCourse:'ROUTER_STUDENT_SELECTCOURSE',
+        default:'ROUTER_STUDENT_COURSE'
+    },
+    teacher:{
+        course:'ROUTER_TEACHER_COURSE',
+        grade:'ROUTER_TEACHER_GRADE',
+        default:'ROUTER_TEACHER_COURSE'
+    },
+    administrator:{
+        course:'ROUTER_ADMINISTRATOR_COURSE',
+        grade:'ROUTER_ADMINISTRATOR_GRADE',
+        user:'ROUTER_ADMINISTRATOR_USER',
+        selectCourse:'ROUTER_ADMINISTRATOR_SELECTCOURSE',
+        default:'ROUTER_ADMINISTRATOR_COURSE'
+    }
+}
+export{
+    router
+}

@@ -1,0 +1,13 @@
+1,password,20,,测试1,1234567,计算机学院,PERMISSION_EAS_STUDENT,false,0
+1,password,20,helloworld,测试2,123456789,软件学院,PERMISSION_EAS_TEACHER,false,0
+1,password,28,password,测试3,12345678,汉语言文学学院,PERMISSION_EAS_STUDENT,true,0
+1,password,20,helloworld,2,123456789,计算机学院,PERMISSION_EAS_TEACHER,false,2
+1,password,20,helloworld,名字名字名字名字名字名字,123456789,计算机学院,PERMISSION_EAS_TEACHER,false,2
+1,password,20,passwordpasswordpasswordpassword,测试名字,123456789,计算机学院,PERMISSION_EAS_TEACHER,false,3
+1,password,20,pass,测试名字,123456789,计算机学院,PERMISSION_EAS_TEACHER,false,3
+1,password,20,helloworld,测试名字,10000,计算机学院,PERMISSION_EAS_TEACHER,false,4
+1,password,20,helloworld,测试名字,123456789,计算机学院,PERMISSION_EAS_ADMINISTRATOR,false,5
+1,password,10068,helloworld,测试名字,123456789,计算机学院,PERMISSION_EAS_TEACHER,false,6
+1,123456,20,helloworld,测试2,123456789,软件学院,PERMISSION_EAS_TEACHER,false,-1
+1111,password,20,helloworld,测试2,123456789,软件学院,PERMISSION_EAS_TEACHER,false,-1
+4,password,20,helloworld,测试2,123456789,软件学院,PERMISSION_EAS_TEACHER,false,1
