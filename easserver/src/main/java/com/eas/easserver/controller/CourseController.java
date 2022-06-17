@@ -74,7 +74,7 @@ public class CourseController {
         if(classroom.length()<2||classroom.length()>31)return APIResponse.argError("教室名字长度需在2-31之间");
         boolean contain=false;for(String s: Course.COURSE_TYPES){if(s.equals(ctype))contain=true;}
         if(!contain)return APIResponse.argError("课程类型无效");
-        if(!lessons.matches("^([1-7]\\&([1-9]||1[0-1]);)*[1-7]\\&([1-9]||1[0-1])$"))return  APIResponse.argError("课程时间无效");
+        if(!lessons.matches("^([1-7]\\&([1-9]||1[0-1]);)*[1-7]\\&([1-9]||1[0-1])$"))return  APIResponse.argError("课程时间无效"); //正则表达式匹配 1-7&1-11;1-7&1-11; （周几第几节之意，多节课之间拿;隔开）
         if(max>120||max<10)return APIResponse.argError("课程最大人数应在10-120之间");
         if(credit<1||credit>10)return APIResponse.argError("学分应在1-10之间");
         if(!add&&courseService.get(cid)==null)return APIResponse.argError("不存在该课程");
